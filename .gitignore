@@ -1,0 +1,20 @@
+# Never commit secrets
+*.env
+auth-profiles.json
+auth.json
+credentials/
+
+# Session data (large, ephemeral)
+sessions/
+sessions.json
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
