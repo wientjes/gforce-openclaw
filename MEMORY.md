@@ -19,6 +19,12 @@
   - OpenClaw gateway bound to localhost only
 - 2026-02-15: Known symlink false-positive: `~/.openclaw` is a symlink → `~/openclaw/.openclaw`. Symlink always shows lrwxrwxrwx; actual target is drwx------ (700). Do NOT flag this as a vulnerability in future audits.
 - 2026-02-15: Weekly security audit cron scheduled (healthcheck:security-audit)
+- 2026-02-18: Fresh session — reconnected via Telegram. All cron jobs had been wiped; recreated all 5:
+  - Wind-down nudges: 6 PM, 7 PM, 9 PM Pacific (daily)
+  - Sunrise check: Sundays noon UTC
+  - Security audit: Mondays 9 AM UTC
+- 2026-02-18: First wind-down sequence fired successfully (6 PM → 7 PM → 9 PM)
+- 2026-02-19: BOOTSTRAP.md deleted — past bootstrap phase
 
 ## Preferences
 - Favorite color: dawn gold 🌅
